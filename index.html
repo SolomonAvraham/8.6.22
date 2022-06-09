@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>8.6.22</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onkeydown="enterStopAnimation(event)">
+    <div id="firstDiv"></div>
+    <br />
+    <button id="starButton">STAR</button>
+    <button id="stopButton">STOP</button>
+    <br />
+    <br />
+    <br />
+
+    <div id="secDiv"></div>
+
+    <br />
+    <br />
+
+    <hr />
+
+    <h1>PICK width and height:</h1>
+    <label for="pickWidth">Width:</label>
+    <input type="number" name="pickWidth" min="0" id="pickWidth" />
+    <label for="pickHeight">Height:</label>
+    <input type="number" name="pickHeight" min="0" id="pickHeight" />
+    <button
+      onclick="executButton()" id="submitButton">Submit</button>
+    <br />
+    <div id="thirdDiv"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
